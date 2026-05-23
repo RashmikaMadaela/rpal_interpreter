@@ -1,0 +1,1 @@
+Print ((fn x . x*x) 7)

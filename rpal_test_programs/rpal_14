@@ -1,0 +1,1 @@
+Print (5 eq 5 -> 'equal' | 'not equal')
