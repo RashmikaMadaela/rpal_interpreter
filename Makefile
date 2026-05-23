@@ -1,5 +1,5 @@
 JC      = javac
-JFLAGS  = -g -cp .
+JFLAGS  = -g -d .
 MAIN    = rpal20
 SRCDIR  = src
 
@@ -23,6 +23,10 @@ all: $(SOURCES)
 
 clean:
 	rm -f *.class \
+	      lexer/*.class \
+	      parser/*.class \
+	      standardizer/*.class \
+	      csemachine/*.class \
 	      $(SRCDIR)/lexer/*.class \
 	      $(SRCDIR)/parser/*.class \
 	      $(SRCDIR)/standardizer/*.class \
