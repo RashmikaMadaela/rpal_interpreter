@@ -1,0 +1,2 @@
+let rec makeList(n) = n eq 0 -> nil | (makeList (n-1)) aug n
+in Print (makeList 3)

@@ -1,0 +1,2 @@
+let compose f g = fn x . f (g x)
+in Print ((compose (fn y . y + 1) (fn y . y * 2)) 3)
